@@ -1,9 +1,13 @@
 import React from 'react'
 import { Jumbotron, Button } from 'reactstrap';
+import Home from './Home';
 
 function HomePage (props) {
   return (
     <div>
+      
+      <Home/>
+
       <Jumbotron>
         <h1 className="display-3">HomePage</h1>
         <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
