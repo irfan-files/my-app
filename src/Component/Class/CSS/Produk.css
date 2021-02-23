@@ -1,5 +1,5 @@
 .box-stock {
-    width: 300px;
+    width: fit-content;
     display: inline-block;
     height: auto;
     border: 1px solid #000;
@@ -14,9 +14,3 @@
     height: 200px;
 }
 
-.btn-click {
-    background-color: black;
-    color: blanchedalmond;
-    padding: 30px;
-    border: none;
-}

@@ -12,6 +12,8 @@ const Home = () => {
         <Produk nama="anjing" stock = "10" harga = "10000000" />
         <Produk nama="anjing" stock = "10" harga = "10000000" />
         <Produk nama="anjing" stock = "10" harga = "10000000" />
+        <Produk nama="anjing" stock = "10" harga = "10000000" />
+        <Produk nama="anjing" stock = "10" harga = "10000000" />
     </div>
 }
 
