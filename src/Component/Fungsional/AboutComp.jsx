@@ -19,14 +19,20 @@ function AboutComp() {
 
       <Row>
         <Col><CardComp id="1" judul="Perpustakaan" tanggal="22/06/2929" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
-        <Col><CardComp id="2" judul="Tatanan Buku" tanggal="22/06/2930" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?"/></Col>
-        <Col><CardComp id="3" judul="Perbukuan" tanggal="22/06/2019" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?"/></Col>
-      </Row>
+        <Col><CardComp id="2" judul="Tatanan Buku" tanggal="22/06/2930" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
+        <Col><CardComp id="3" judul="Perbukuan" tanggal="22/06/2019" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
+        </Row>
+        <Row>
+        <Col><CardComp id="4" judul="Perhotelan" tanggal="22/06/2019" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
+        <Col><CardComp id="5" judul="test" tanggal="22/06/2019" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
+        <Col><CardComp id="6" judul="Perbukuan" tanggal="22/06/2019" keterangan="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla molestias mollitia beatae, delectus fugit velit sequi fuga eligendi tempore. Odit veniam totam cupiditate iure commodi alias error illum aperiam voluptatum?" /></Col>
       
+        </Row>
+
 
 
     </div>
-    
+
   )
 }
 

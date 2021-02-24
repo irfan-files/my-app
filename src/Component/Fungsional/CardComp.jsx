@@ -16,7 +16,7 @@ function CardComp(props) {
                     <CardTitle><h3>{props.judul}</h3></CardTitle>
                     <CardSubtitle>{props.tanggal}</CardSubtitle>
                     <CardText>{props.keterangan}</CardText>
-                    <Button >
+                    <Button color="danger">
                     <Link to = {
                         {
                             pathname : '/detail/${props.id}',
