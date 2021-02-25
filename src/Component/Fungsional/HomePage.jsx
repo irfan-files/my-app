@@ -2,11 +2,9 @@ import React from 'react'
 import { Jumbotron, Button } from 'reactstrap';
 import Home from './Home';
 
-function HomePage (props) {
+function HomePage(props) {
   return (
     <div>
-      
-      <Home/>
 
       <Jumbotron>
         <h1 className="display-3">HomePage</h1>
