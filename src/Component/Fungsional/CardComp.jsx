@@ -16,18 +16,18 @@ function CardComp(props) {
                     <CardTitle><h3>{props.judul}</h3></CardTitle>
                     <CardSubtitle>{props.tanggal}</CardSubtitle>
                     <CardText>{props.keterangan}</CardText>
-                    <Button color="danger">
-                    <Link to = {
+
+                    <Link to={
                         {
-                            pathname : '/detail/${props.id}',
-                            state : {
+                            pathname: '/detail/${props.id}',
+                            state: {
                                 judul: props.judul,
                                 tanggal: props.tanggal,
                                 keterangan: props.keterangan
                             }
                         }
-                    }>Detail</Link>
-                    </Button>
+                    }><Button color="primary">Detail</Button></Link>
+
                 </CardBody>
             </Card>
 
