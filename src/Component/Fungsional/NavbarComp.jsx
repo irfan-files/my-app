@@ -21,13 +21,13 @@ const NavbarComp = (props) => {
 
     return (
         <div>
-            <Navbar color="light" light expand="md">
+            <Navbar color="primary" light expand="md">
                 <NavbarBrand href="/">reactstrap</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
-                        <NavItem>
-                            <NavLink href="/">Home</NavLink>
+                        <NavItem color="light">
+                            <NavLink href="/" >Home</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/about">About</NavLink>
@@ -35,9 +35,26 @@ const NavbarComp = (props) => {
                         <NavItem>
                             <NavLink href="/mahasiswa">Mahasiswa</NavLink>
                         </NavItem>
+                        <UncontrolledDropdown nav inNavbar>
+                            <DropdownToggle nav caret>
+                                Pelayanan
+              </DropdownToggle>
+                            <DropdownMenu right>
+                                <DropdownItem>
+                                    Option 1
+                </DropdownItem>
+                                <DropdownItem>
+                                    Option 2
+                </DropdownItem>
+                                <DropdownItem divider />
+                                <DropdownItem>
+                                    Reset
+                </DropdownItem>
+                            </DropdownMenu>
+                        </UncontrolledDropdown>
                     </Nav>
                     <NavbarText>Simple Text</NavbarText>
-                </Collapse> 
+                </Collapse>
             </Navbar>
         </div>
     )
